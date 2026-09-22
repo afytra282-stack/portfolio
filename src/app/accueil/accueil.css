@@ -54,24 +54,6 @@ h2 {
   color: #00843d;
 }
 
-.hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle {
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 8px solid #00843d;
-  font-size: 70px;
-  font-weight: bold;
-}
-
 .cv {
   border: 2px solid #333;
   color: #333;
