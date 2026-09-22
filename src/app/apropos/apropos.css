@@ -1,0 +1,53 @@
+.about {
+  padding: 100px 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  background: #f8faf9;
+}
+
+.about-content {
+  max-width: 650px;
+}
+
+.section-title {
+  color: #00843d;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.about p:not(.section-title) {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.about-info {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.info-card strong {
+  display: block;
+  color: #00843d;
+  margin-bottom: 8px;
+}
+
+.info-card span {
+  color: #555;
+  line-height: 1.5;
+}
